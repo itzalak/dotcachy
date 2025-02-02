@@ -26,10 +26,9 @@ tasks:
     internal: true
 
   python:
-    desc: Pynvim and pipx installation
+    desc: Python and pipx installation
     cmds:
       - task: installation
-      - task: pipx
       - task: pyenv
     silent: true
 

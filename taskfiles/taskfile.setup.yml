@@ -32,14 +32,13 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman
-      - "{{.ROOT_DIR}}/taskfiles/scripts/00-pacman-minimal.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/00-cachy-minimal.sh"
 
   install_linux_common:
     desc: Ordered installation of common packages
     platforms: [linux]
     prompt: Experimental, might fail! Continue?
     cmds:
-      - task: desktop
       - task: :terminal:terminal
       - task: :neovim:neovim
 
@@ -50,16 +49,6 @@ tasks:
     cmds:
       - task: :python:python
       - task: :sdkman:sdkman
-
-  desktop:
-    internal: true
-    desc: Desktop installation, wireless, bluetooth, sound, etc...
-    platforms: [linux]
-    cmds:
-      - task: assert
-        vars:
-          REQUIRED_TOOLS: pacman
-      - "{{.ROOT_DIR}}/taskfiles/scripts/01-pacman-desktop.sh"
 
   development:
     desc: Install development packages
@@ -86,4 +75,4 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman, java
-      - "{{.ROOT_DIR}}/taskfiles/scripts/30-games.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/30-cachy-games.sh"
