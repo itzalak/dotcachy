@@ -7,6 +7,10 @@ set -g -x fish_greeting ''
 # Enable starship config
 set --universal --export STARSHIP_CONFIG "$HOME/.config/starship/starship.toml"
 
+# Format man pages
+set -x MANROFFOPT "-c"
+set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
 # Python, pip and pyenv
 fish_add_path --prepend "$HOME/.local/bin"
 if test -d "$HOME/.pyenv"
