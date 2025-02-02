@@ -1,3 +1,9 @@
+## v0.0.2 (2025-02-02)
+
+### Changed
+
+- add neovim submodule
+
 ## v0.0.1 (2025-02-02)
 
 ### Changed
