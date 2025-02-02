@@ -1,3 +1,12 @@
+## v0.0.4 (2025-02-02)
+
+### Changed
+
+- add modifications for fish according to cachyos
+- changes to terminal config
+- more updates to installation scripts
+- revisit installation scripts based on cachyos
+
 ## v0.0.3 (2025-02-02)
 
 ### Changed
