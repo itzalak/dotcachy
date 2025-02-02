@@ -1,3 +1,10 @@
+## v0.0.5 (2025-02-02)
+
+### Changed
+
+- corrections to the python setup
+- one more alias
+
 ## v0.0.4 (2025-02-02)
 
 ### Changed
