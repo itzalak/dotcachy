@@ -1,3 +1,9 @@
+## v0.0.3 (2025-02-02)
+
+### Changed
+
+- tweak minimal setup for cachyos
+
 ## v0.0.2 (2025-02-02)
 
 ### Changed
