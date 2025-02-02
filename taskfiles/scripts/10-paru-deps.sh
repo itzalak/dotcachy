@@ -11,7 +11,7 @@ PKGS=(
 
 echo "Installing yay packages"
 
-for YPKG in "${PKGS[@]}"; do
+for PKG in "${PKGS[@]}"; do
 	echo "Installing package: $PKG"
 	paru -S "$PKG" --noconfirm --needed
 done
