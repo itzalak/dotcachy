@@ -28,7 +28,6 @@ tasks:
       REQUIRED_TOOLS: bash, stow, pacman
 
   terminal:
-    internal: true
     deps: [assert]
     desc: Setup terminal and shell
     cmds:
@@ -41,7 +40,7 @@ tasks:
     deps: [assert]
     desc: Install terminal and shell dependencies
     cmds:
-      - "{{.ROOT_DIR}}/taskfiles/scripts/02-terminal.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/02-cachy-terminal.sh"
 
   cleanup:
     internal: true
@@ -51,6 +50,7 @@ tasks:
       - rm -rf {{.HOME}}/.bash_profile
       - rm -rf {{.HOME}}/.bash_logout
       - rm -rf {{.HOME}}/.config/fish
+      - rm -rf {{.HOME}}/.config/ghostty
       - rm -rf {{.HOME}}/.zshrc
 
   stow:
