@@ -33,7 +33,7 @@ git clone git@github.com:itzalak/dotcachy.git {{destination/directory}}
 Run minimal setup script to install required tools
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/itzalak/dotcahy/refs/heads/main/taskfiles/scripts/00-minimal-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/itzalak/dotcachy/refs/heads/main/taskfiles/scripts/00-cachy-minimal.sh | bash
 ```
 
 ## Requirements
