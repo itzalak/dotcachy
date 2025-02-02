@@ -6,6 +6,7 @@ set -uo pipefail
 
 PKGS=(
 	# Apps
+	bottom
 	ghostty
 	go-task
 	neovim

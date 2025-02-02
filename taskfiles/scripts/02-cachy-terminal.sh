@@ -4,15 +4,18 @@ set -uo pipefail
 
 PKGS=(
 	alacritty
+	bash
 	bash-completion
 	bat
+	bottom
 	fd
 	fish
 	fzf
 	ghostty
 	man-db
 	man-pages
-	p7zip
+	zip
+	unzip
 	poppler
 	ripgrep
 	ripgrep-all
