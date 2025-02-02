@@ -4,10 +4,9 @@ includes:
   setup: ./taskfiles/taskfile.setup.yml
   terminal: ./taskfiles/taskfile.terminal.yml
   neovim: ./taskfiles/taskfile.neovim.yml
-  hypr: ./taskfiles/taskfile.hyprland.yml
+  # hypr: ./taskfiles/taskfile.hyprland.yml
   python: ./taskfiles/taskfile.python.yml
   sdkman: ./taskfiles/taskfile.sdkman.yml
-  gnome: ./taskfiles/taskfile.gnome.yml
   thunar: ./taskfiles/taskfile.thunar.yml
 
 tasks:
