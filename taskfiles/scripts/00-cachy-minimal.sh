@@ -17,6 +17,7 @@ PKGS=(
 	thunar-archive-plugin
 	gvfs
 	yazi
+	cliphist
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -41,6 +41,8 @@ tasks:
     desc: Install terminal and shell dependencies
     cmds:
       - "{{.ROOT_DIR}}/taskfiles/scripts/02-cachy-terminal.sh"
+      - mkdir -p {{.HOME}}/.config/zsh
+      - mkdir -p {{.HOME}}/.cache/zsh
 
   cleanup:
     internal: true

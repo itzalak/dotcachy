@@ -140,5 +140,21 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# brew
+Brewfile.lock.json
+
+# git
+.gitconfig.pers
+
+# macos
+.DS_Store
+
+# taskfile
+.task
+
 # fish
 /terminal/.config/fish/fish_variables
+
+# zsh
+/terminal/.config/zsh/.zcompdump
+/terminal/.config/zsh/.zim/
