@@ -30,7 +30,7 @@ echo "Installing required packages for development"
 
 for PKG in "${PKGS[@]}"; do
 	echo "Installing package: $PKG"
-	yay -S "$PKG" --noconfirm --needed
+	paru -S "$PKG" --noconfirm --needed
 done
 
 echo "Development setup is complete"

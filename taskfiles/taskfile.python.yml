@@ -40,7 +40,7 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman
-      - "{{.ROOT_DIR}}/taskfiles/scripts/20-python.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/20-pacman-python.sh"
 
   pyenv:
     internal: true

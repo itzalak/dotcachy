@@ -57,7 +57,7 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman, python, java, pyenv
-      - "{{.ROOT_DIR}}/taskfiles/scripts/22-development.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/21-paru-development.sh"
 
   productivity:
     desc: Install productivity packages
@@ -66,7 +66,7 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman, java, python
-      - "{{.ROOT_DIR}}/taskfiles/scripts/25-productivity.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/22-paru-productivity.sh"
 
   games:
     desc: Install games packages
