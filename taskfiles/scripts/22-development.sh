@@ -23,6 +23,7 @@ PKGS=(
 	shellcheck
 	yq
 	lazygit
+	gron
 )
 
 echo "Installing required packages for development"
