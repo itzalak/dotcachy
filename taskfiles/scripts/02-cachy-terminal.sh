@@ -8,7 +8,7 @@ PKGS=(
 	bash-completion
 	bat
 	bottom
-    eza
+	eza
 	fd
 	fish
 	fzf
