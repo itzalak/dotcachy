@@ -1,3 +1,16 @@
+## v0.0.6 (2025-02-03)
+
+### Changed
+
+- Add zsh configuration
+- refactor terminal config for shell
+- include gron in developer toolset
+
+### Tools
+
+- initialize poetry
+- Update pre-commit config
+
 ## v0.0.5 (2025-02-02)
 
 ### Changed
