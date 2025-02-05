@@ -13,9 +13,6 @@ PKGS=(
 	ripgrep
 	ripgrep-all
 	stow
-	thunar
-	thunar-archive-plugin
-	gvfs
 	yazi
 	cliphist
 )
