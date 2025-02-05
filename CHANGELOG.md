@@ -1,3 +1,9 @@
+## v0.0.8 (2025-02-05)
+
+### Changed
+
+-  puger thunar config
+
 ## v0.0.7 (2025-02-03)
 
 ### Changed
