@@ -1,3 +1,9 @@
+## v0.0.9 (2025-02-06)
+
+### Changed
+
+- Cleanup and revision
+
 ## v0.0.8 (2025-02-05)
 
 ### Changed
