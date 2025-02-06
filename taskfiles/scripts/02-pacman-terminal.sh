@@ -13,6 +13,7 @@ PKGS=(
 	fish
 	fzf
 	ghostty
+	kitty
 	man-db
 	man-pages
 	zip
@@ -31,6 +32,7 @@ PKGS=(
 	ttf-fira-code
 	ttf-firacode-nerd
 	ttf-iosevka-nerd
+	ttf-iosevkaterm-nerd
 	ttf-nerd-fonts-symbols
 )
 
