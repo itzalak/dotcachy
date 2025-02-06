@@ -1,3 +1,9 @@
+## v0.0.11 (2025-02-06)
+
+### Changed
+
+- preparation hyprland again
+
 ## v0.0.10 (2025-02-06)
 
 ### Changed
