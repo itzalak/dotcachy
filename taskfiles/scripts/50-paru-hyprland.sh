@@ -28,4 +28,17 @@ for PKG in "${PKGS[@]}"; do
 	sudo pacman -S "$PKG" --noconfirm --needed
 done
 
+PARUPKGS=(
+	hyprland-qtutils
+	hyprsunset
+	bemoji
+)
+
+echo "Installing hypr AUR packages"
+
+for PPKG in "${PARUPKGS[@]}"; do
+	echo "Installing package: $PPKG"
+	yay -S "$PPKG" --noconfirm --needed
+done
+
 echo "Packages installed"

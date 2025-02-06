@@ -3,8 +3,6 @@
 set -uo pipefail
 
 PKGS=(
-	ktlint
-
 	# Lua
 	lua
 	luarocks
@@ -15,6 +13,7 @@ PKGS=(
 	pycharm-community-edition
 
 	# Misc
+	ktlint
 	git-extras
 	tree
 	cargo

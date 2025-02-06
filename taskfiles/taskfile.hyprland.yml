@@ -43,8 +43,7 @@ tasks:
       - task: assert
         vars:
           REQUIRED_TOOLS: pacman
-      - "{{.ROOT_DIR}}/taskfiles/scripts/50-hyprland.sh"
-      - "{{.ROOT_DIR}}/taskfiles/scripts/51-hypr-yay.sh"
+      - "{{.ROOT_DIR}}/taskfiles/scripts/50-paru-hyprland.sh"
 
   stow:
     desc: Symlink hyprland packages

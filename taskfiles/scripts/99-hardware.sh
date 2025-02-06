@@ -2,6 +2,8 @@
 
 set -uo pipefail
 
+#// TODO: Under resivion
+
 PKGS=(
 	# AMD
 	xf86-video-amdgpu
@@ -30,11 +32,9 @@ YAYPKGS=(
 	# https://wiki.archlinux.org/title/Asusctl
 	# https://asus-linux.org/manual/asusctl-manual/
 	# https://asus-linux.org/manual/supergfxctl-manual/
-	supergfxctl
+	# supergfxctl
 	rog-control-center
 	asusctl
-	# Other
-	zsa-keymapp-bin
 )
 
 echo "Installing yay packages"
@@ -47,4 +47,4 @@ done
 echo "Setting asus services"
 
 sudo systemctl enable --now asusd.service
-sudo systemctl enable --now supergfxd.service
+# sudo systemctl enable --now supergfxd.service

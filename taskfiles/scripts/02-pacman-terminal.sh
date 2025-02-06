@@ -31,9 +31,7 @@ PKGS=(
 	ttf-fira-code
 	ttf-firacode-nerd
 	ttf-iosevka-nerd
-	ttf-iosevkaterm-nerd
 	ttf-nerd-fonts-symbols
-	ttf-zed-mono-nerd
 )
 
 echo "Installing terminal related packages"
