@@ -1,3 +1,9 @@
+## v0.0.13 (2025-02-06)
+
+### Fixed
+
+- correct installation for hypr to use paru
+
 ## v0.0.12 (2025-02-06)
 
 ### Changed
