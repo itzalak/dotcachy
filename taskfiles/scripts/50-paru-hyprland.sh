@@ -38,7 +38,7 @@ echo "Installing hypr AUR packages"
 
 for PPKG in "${PARUPKGS[@]}"; do
 	echo "Installing package: $PPKG"
-	yay -S "$PPKG" --noconfirm --needed
+	paru -S "$PPKG" --noconfirm --needed
 done
 
 echo "Packages installed"

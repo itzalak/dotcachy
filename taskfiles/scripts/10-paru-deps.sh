@@ -9,7 +9,7 @@ PKGS=(
 	zsa-keymapp-bin
 )
 
-echo "Installing yay packages"
+echo "Installing paru packages"
 
 for PKG in "${PKGS[@]}"; do
 	echo "Installing package: $PKG"
