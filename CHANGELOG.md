@@ -1,3 +1,9 @@
+## v0.0.10 (2025-02-06)
+
+### Changed
+
+- Add kitty to terminal stuff
+
 ## v0.0.9 (2025-02-06)
 
 ### Changed
