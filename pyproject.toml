@@ -1,6 +1,6 @@
 [project]
 name = "dotcachy"
-version = "0.0.14"
+version = "0.0.15"
 description = "Personal laboratory for experimental dotfiles"
 authors = [
     {name = "Itzalak",email = "itzalak@tuta.io"}
@@ -27,7 +27,7 @@ venv = ".venv"
 name = "cz_customize"
 tag_format = "v$major.$minor.$patch"
 version_scheme = "semver"
-version = "0.0.14"
+version = "0.0.15"
 update_changelog_on_bump = true
 version_files = ["pyproject.toml"]
 

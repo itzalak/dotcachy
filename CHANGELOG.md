@@ -1,3 +1,12 @@
+## v0.0.15 (2025-02-09)
+
+### Changed
+
+- apply tokyonight to hyprland
+- introduce first draft of tokyonight by folke to tint
+- Update precommit plugins and neovim colors
+- Correct neovim update
+
 ## v0.0.14 (2025-02-09)
 
 ### Changed
