@@ -1,3 +1,9 @@
+## v0.0.16 (2025-02-09)
+
+### Changed
+
+- tweak kitty conf
+
 ## v0.0.15 (2025-02-09)
 
 ### Changed
