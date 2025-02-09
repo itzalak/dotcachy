@@ -1,3 +1,9 @@
+## v0.0.14 (2025-02-09)
+
+### Changed
+
+- adjust some bindings and update lazyvim
+
 ## v0.0.13 (2025-02-06)
 
 ### Fixed
