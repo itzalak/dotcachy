@@ -1,3 +1,10 @@
+## v0.0.19 (2025-02-15)
+
+### Changed
+
+- Tryout master layout, refactor bindings
+- remove unused device config
+
 ## v0.0.18 (2025-02-15)
 
 ### Fixed
