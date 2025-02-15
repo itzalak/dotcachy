@@ -1,3 +1,11 @@
+## v0.0.17 (2025-02-15)
+
+### Changed
+
+- remove desktop item for nvim, part of the thunar config
+- bring steam special config
+- update neovim
+
 ## v0.0.16 (2025-02-09)
 
 ### Changed
