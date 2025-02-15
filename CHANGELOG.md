@@ -1,3 +1,9 @@
+## v0.0.18 (2025-02-15)
+
+### Fixed
+
+- try to fix stuttering cursor
+
 ## v0.0.17 (2025-02-15)
 
 ### Changed
