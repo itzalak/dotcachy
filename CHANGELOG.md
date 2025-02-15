@@ -1,3 +1,9 @@
+## v0.0.20 (2025-02-15)
+
+### Changed
+
+- cleanup special scratchpad
+
 ## v0.0.19 (2025-02-15)
 
 ### Changed
