@@ -1,3 +1,17 @@
+## v0.0.22 (2025-02-16)
+
+### Changed
+
+- volume alias
+
+### Fixed
+
+- Apps not closing because of dunst
+
+### Tools
+
+- update pre commit versions
+
 ## v0.0.21 (2025-02-16)
 
 ### Changed
