@@ -1,3 +1,10 @@
+## v0.0.21 (2025-02-16)
+
+### Changed
+
+- add brightnessctl
+- electron flags
+
 ## v0.0.20 (2025-02-15)
 
 ### Changed
