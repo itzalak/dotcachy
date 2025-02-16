@@ -13,6 +13,7 @@ PKGS=(
 	polkit-kde-agent
 	grim
 	slurp
+	brightnessctl
 	# Others
 	waybar
 	wpaperd
