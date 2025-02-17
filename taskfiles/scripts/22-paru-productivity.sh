@@ -10,6 +10,7 @@ PKGS=(
 	slack-desktop-wayland
 	spotify-launcher
 	ticktick
+	thunderbird
 )
 
 echo "Installing packages"
