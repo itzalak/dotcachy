@@ -1,3 +1,13 @@
+## v0.0.23 (2025-02-17)
+
+### Changed
+
+- update installation scripts
+
+### Tools
+
+- update pre-commit
+
 ## v0.0.22 (2025-02-16)
 
 ### Changed
