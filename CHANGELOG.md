@@ -1,3 +1,9 @@
+## v0.0.25 (2025-03-01)
+
+### Changed
+
+- update wallpaper rotationa and add more wallpapers
+
 ## v0.0.24 (2025-03-01)
 
 ### Changed
