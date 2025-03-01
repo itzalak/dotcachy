@@ -4,7 +4,7 @@ openwindows=$(
 	hyprctl clients -j |
 		jq -r '.[] | "[\(.workspace.id)] [\(.class)] \(.title) \(.address)"' |
 		sort |
-		fuzzel --dmenu |
+		rofi -dmenu |
 		awk '{print $NF}'
 )
 

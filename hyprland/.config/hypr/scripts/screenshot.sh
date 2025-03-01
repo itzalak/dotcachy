@@ -34,7 +34,7 @@ copytoclipboard="Screenshot area to clipboard"
 
 options="$area\n$window\n$screen\n$copytoclipboard"
 
-choice=$(echo -e "$options" | fuzzel --dmenu)
+choice=$(echo -e "$options" | rofi -dmenu)
 
 case $choice in
 "$area")

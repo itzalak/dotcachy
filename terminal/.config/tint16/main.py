@@ -1,6 +1,7 @@
 import json
-import sys
 import os
+import sys
+
 from palette import Palette
 
 tint16_dir = os.path.dirname(os.path.abspath(__file__))
@@ -22,6 +23,7 @@ def load_templates():
 
 def generate_config_from_template(template, color_scheme):
     color_values = color_scheme.to_dict()
+    # format converts any `{{` to `{`, this is useful for rofi
     return template.format(**color_values)
 
 

@@ -18,8 +18,9 @@ PKGS=(
 	waybar
 	wpaperd
 	cliphist
-	fuzzel
+	# fuzzel
 	nwg-look
+	rofi-wayland
 )
 
 echo "Installing packages"
