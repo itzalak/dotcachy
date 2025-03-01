@@ -1,3 +1,9 @@
+## v0.0.24 (2025-03-01)
+
+### Changed
+
+- update keybindings to reflect K8 and M1
+
 ## v0.0.23 (2025-02-17)
 
 ### Changed
