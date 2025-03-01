@@ -1,5 +1,5 @@
 [default]
-duration = "20m"
+duration = "10m"
 mode = "center"
 sorting = "ascending"
 transition-time = 6000
