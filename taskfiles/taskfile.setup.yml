@@ -76,3 +76,9 @@ tasks:
         vars:
           REQUIRED_TOOLS: pacman, java
       - "{{.ROOT_DIR}}/taskfiles/scripts/30-cachy-games.sh"
+
+  keyboard:
+    desc: Enable keyboard fn keys
+    platforms: [linux]
+    cmds:
+      - "{{.ROOT_DIR}}/taskfiles/scripts/80-keyboard.sh"
