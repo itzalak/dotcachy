@@ -1,3 +1,16 @@
+## v0.0.26 (2025-03-01)
+
+### Changed
+
+- add keyboard config
+- tweak rofi for laptop monitor
+- tweak waybar style to match highlight color
+- replace fuzzel with rofi wayland
+
+### Fixed
+
+- tentative fix for flickering screens
+
 ## v0.0.25 (2025-03-01)
 
 ### Changed
