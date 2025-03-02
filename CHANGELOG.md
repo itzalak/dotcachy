@@ -1,3 +1,9 @@
+## v0.0.27 (2025-03-02)
+
+### Changed
+
+- update fzf config
+
 ## v0.0.26 (2025-03-01)
 
 ### Changed
