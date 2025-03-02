@@ -11,7 +11,23 @@ if type -q nvim
 end
 
 if type -q fzf
-    set -x FZF_DEFAULT_OPTS "--preview-window='right,60%,border-bold,+{2}+3/3,~3' --color 'header:#ffc700,border:#ffc700' --info='inline-right' --no-separator --no-scrollbar --padding 2%"
+    set -x FZF_DEFAULT_OPTS "--style full \
+        --preview 'fzf-preview.sh {}' \
+        --bind 'focus:transform-header:file --brief {}' \
+        --color=gutter:#1e2030 \
+        --color=header:#ff966c \
+        --color=marker:#ff007c \
+        --color=pointer:#ff007c \
+        --color=prompt:#828bb8 \
+        --color=scrollbar:#82aaff \
+        --color 'preview-border:#82aaff,preview-label:#82aaff' \
+        --color 'list-border:#82aaff,list-label:#82aaff' \
+        --color 'input-border:#82aaff,input-label:#82aaff' \
+        --color 'header-border:#ffc777,header-label:#ffc777'\
+        --info='inline-right' \
+        --no-separator \
+        --no-scrollbar \
+        --padding 2%"
 end
 
 switch (uname)
@@ -21,7 +37,7 @@ switch (uname)
             set CLIPBOARD_CMD wl-copy
         else if type -q xclip
             # X11
-             set CLIPBOARD_CMD "xclip -selection clipboard"
+            set CLIPBOARD_CMD "xclip -selection clipboard"
         end
     case Darwin
         set CLIPBOARD_CMD pbcopy
