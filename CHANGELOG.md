@@ -1,3 +1,9 @@
+## v0.0.28 (2025-03-02)
+
+### Changed
+
+- update the keyboard setup
+
 ## v0.0.27 (2025-03-02)
 
 ### Changed
