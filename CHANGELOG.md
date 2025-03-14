@@ -1,3 +1,9 @@
+## v0.0.29 (2025-03-14)
+
+### Changed
+
+- update fuzzy finder
+
 ## v0.0.28 (2025-03-02)
 
 ### Changed
