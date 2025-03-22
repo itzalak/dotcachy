@@ -1,3 +1,10 @@
+## v0.0.30 (2025-03-22)
+
+### Tools
+
+- update pre commit and poetry
+- update neovim version
+
 ## v0.0.29 (2025-03-14)
 
 ### Changed
