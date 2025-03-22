@@ -24,7 +24,7 @@ repos:
         exclude: '^\.gitignore$'
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.2.1
+    rev: v4.4.1
     hooks:
       - id: commitizen
         stages: [commit-msg]
@@ -55,7 +55,7 @@ repos:
       - id: black
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.31.1
+    rev: 0.31.3
     hooks:
       - id: check-taskfile
       - id: check-github-workflows
@@ -67,7 +67,7 @@ repos:
         args: ['-formatter', 'retain_line_breaks=true']
 
   - repo: https://github.com/scop/pre-commit-shfmt
-    rev: v3.10.0-2
+    rev: v3.11.0-1
     hooks:
       - id: shfmt
 
